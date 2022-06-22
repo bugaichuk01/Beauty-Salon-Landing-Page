@@ -1,0 +1,178 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'bahnschrift'; 
+	src: url(/fonts/Bahn.ttf); 
+}
+p {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 23px;	
+}
+a {
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+}
+nav ul  {
+	display: flex;
+	justify-content: space-between; 
+}
+nav ul li {
+	display: flex;
+}
+.header {
+	background-color: #000000;
+	text-align: center;
+	display: flex;
+}
+nav {
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	width: 1170px;
+
+}
+nav #adaptive-img {
+	display: none;
+}
+nav ul li:nth-child(3) {
+	pointer-events: none;
+	padding-top: 7px;
+}
+
+nav ul li:not(:nth-child(3)) {
+	padding-top: 22px;
+}
+.slider {
+	position: relative;
+	height: 628px;
+  }
+  .slideshow img {
+	/*max-width: 100%;
+	height: auto; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%; /* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: width: 100vw; */
+	height: 100%;/* relative to nearest positioned ancestor and not nearest block-level ancestor - alternatively: height: 100vh; */ 
+	object-fit: cover;
+	z-index:-1;
+	/* filter: brightness(50%); */ /* 0% black, 100% original image, values > 100% are allowed for brighter than original image. */
+	/* display: none; */
+	opacity: 0;
+	transition: opacity 0.75s ease-in-out;
+  }
+  /* .intro-slideshow img:first-child {
+	display: block;
+	opacity: 1;
+  } */
+  .sleder .intro-header {
+	border-radius: 0.5rem;
+	padding: 2rem 2.5rem;
+	background-color: rgba(0,0,0,0.5);
+  }
+
+.full-info {
+	max-width: 100%;
+	height: auto;
+	background-color: black;
+}
+.full-info .main-text {
+	font-size: 56px;
+	text-align: center;
+	padding-top: 88px;
+	padding-bottom: 65px;
+	max-width: 1175px;
+	margin: 0 auto;
+}
+.full-info .info-images .first-col .first-im {
+	padding-right: 50px;
+}
+.full-info .info-images .first-col p {
+	padding-top: 25px;
+	padding-bottom: 45px;
+	font-size: 23px;
+}
+.full-info .info-images {
+	max-width: 1175px;
+	align-items: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.full-info .info-images .first-col {
+	display: flex;
+	text-align: center;
+}
+
+.full-info .info-images  {
+	padding-bottom: 65px;
+}
+.full-info .about-info {
+	max-width: 1365px;
+	margin: 0 auto;
+}
+.full-info .about {
+	padding-bottom: 90px;
+	font-size: 50px;
+}
+.full-info p {
+	font-size: 41px;
+}
+.full-info p:nth-child(2) {
+	padding-bottom: 68px;
+}
+.full-info p:nth-child(3) {
+	padding-left: 45px;
+	padding-bottom: 18px;
+}
+.full-info p:nth-child(4) {
+	padding-bottom: 18px;
+	padding-left: 18px;
+}
+.full-info p:nth-child(5) {
+	padding-left: 492px;
+	padding-bottom: 84px;
+}
+.full-info p:nth-child(6) {
+	padding-bottom: 56px;
+	padding-left:795px;
+}
+
+.footer {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	padding-top: 27px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.footer .footer-first, .footer .footer-second ,.footer .footer-third {
+	display: flex;
+	justify-content: space-between;
+}
+.footer .footer-first p {
+	padding-bottom: 24px;
+	font-size: 26px;
+}
+.footer .footer-second p {
+	font-size: 20px;
+}
+.footer .footer-third {
+	padding-top: 27px;
+}
+.footer .footer-third p{
+	font-size: 20px;
+}
+.footer p{
+	color: black;
+}
+
+.footer  .footer-second .social a:not(:nth-child(1)) {
+	padding-left: 15px;
+}

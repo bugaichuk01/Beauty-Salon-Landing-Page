@@ -1,0 +1,636 @@
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+
+    /*Тут будет CSS код для разрешения 320 пикселей и до 479 пикселей*/
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 11px;
+    }
+    nav #adaptive-img {
+        display: block;
+        margin: 0  auto;
+        width: 40px;
+        padding-top: 10px;
+    }
+    .slider {
+        height: 200px;
+      }
+    nav ul li:nth-child(3) {
+        display: none;
+    }
+    nav ul  {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    nav ul li {
+        display: flex;
+    }
+    .snip li {
+        margin: 0 0.1em;
+    }
+    .header {
+        background-color: #000000;
+        text-align: center;
+        display: flex;
+    }
+    nav {
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        width: 1170px;
+    
+    }
+    .snip a:before,
+    .snip a:after {
+    display: none;
+    }
+
+    .full-info .main-text {
+        padding-top: 34px;
+        padding-bottom: 30px;
+    }
+    
+    .full-info .info-images img{
+        width: 275px;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .full-info .info-images{
+       padding-bottom: 0;
+    }
+    .full-info .info-images .first-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .full-info .info-images .first-col .first-im {
+        padding-right: 0;
+    }
+    .full-info .info-images .third-im {
+        display: none;
+    }
+    .full-info .info-images .first-col p {
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+    .full-info .about-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .full-info .about-info p{
+        font-size: 11px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .full-info .about {
+        font-size: 37px;
+        padding-bottom: 0;
+    }
+    .full-info p {
+        font-size: 27px;
+    }  
+    .full-info p:nth-child(1) {
+       font-size: 18px;
+    }
+    .full-info p:nth-child(2) {
+        padding-bottom: 10px;
+    }
+    .full-info p:nth-child(3) {
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    .full-info p:nth-child(4) {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .full-info p:nth-child(5) {
+        padding-bottom: 10px;
+    }
+    .full-info p:nth-child(6) {
+        padding-bottom: 10px;
+    }
+    .footer .footer-first p {
+        padding-bottom: 24px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .footer .footer-second {
+        text-align: center;
+        align-items: center;
+    }
+    .footer .footer-second p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .footer .footer-second .social{
+        display: none;
+    }
+    .footer .footer-third {
+        padding-top: 27px;
+        text-align: center;
+    }
+    .footer .footer-third p{
+        font-size: 12px;
+    }
+    .footer p{
+        color: black;
+    }
+    
+    .footer  .footer-second .social img:not(:nth-child(1)) {
+        padding-left: 15px;
+    }
+    }
+    
+    @media only screen and (min-width : 480px) and (max-width : 639px) {
+    
+    /*Тут будет CSS код для разрешения 480 пикселей и до 639 пикселей*/
+        /*Тут будет CSS код для разрешения 320 пикселей и до 479 пикселей*/
+        a {
+            font-size: 13px;
+        }
+        .full-info  img {
+            width: 480px;
+        }
+        nav #adaptive-img {
+            display: block;
+            margin: 0  auto;
+            width: 50px;
+            padding-top: 10px;
+        }
+        .slider {
+            height: 300px;
+          }
+        nav ul li:nth-child(3) {
+            display: none;
+        }
+        nav ul  {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+        }
+        .header {
+            background-color: #000000;
+            text-align: center;
+            display: flex;
+        }
+        nav {
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            width: 1170px;
+        
+        }
+        .snip a:before,
+        .snip a:after {
+        display: none;
+        }
+        .full-info .info-images .first-col .first-im {
+            padding-right: 0;
+        }
+        .full-info .info-images .first-col {
+            display: flex;
+            flex-direction: column;
+        }
+        .full-info .info-images .first-col p {
+            font-size: 20px;
+        }
+        .full-info .info-images .third-im img{
+            width: 625px;
+        }
+        .full-info .about-info {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .full-info .about-info p{
+            font-size: 15px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .full-info .about {
+            padding-bottom: 0;
+        }
+        .full-info p {
+            font-size: 27px;
+        }  
+        .full-info p:nth-child(1) {
+           font-size: 26px;
+        }
+        .full-info p:nth-child(2) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(3) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(4) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(5) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(6) {
+            padding-bottom: 10px;
+        }
+        .footer .footer-first p {
+            padding-bottom: 24px;
+            font-size: 15px;
+        }
+        .footer .footer-second p{
+            font-size: 12px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        
+        .footer .footer-third {
+            padding-top: 27px;
+            text-align: center;
+        }
+        .footer .footer-third p{
+            font-size: 18px;
+        }
+        .footer p{
+            color: black;
+        }
+        .footer {
+            max-width: 530px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        .full-info .info-images .first-col p {
+            padding-bottom: 10px;
+        }
+    }
+    
+    @media only screen and (min-width : 640px) and (max-width : 767px) {
+    
+        /*Тут будет CSS код для разрешения 480 пикселей и до 639 пикселей*/
+            /*Тут будет CSS код для разрешения 320 пикселей и до 479 пикселей*/
+            a {
+                font-size: 13px;
+            }
+            .full-info  img {
+                width: 480px;
+            }
+            nav #adaptive-img {
+                display: block;
+                margin: 0  auto;
+                width: 50px;
+                padding-top: 10px;
+            }
+            .slider {
+                height: 300px;
+              }
+            nav ul li:nth-child(3) {
+                display: none;
+            }
+            nav ul  {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 0px;
+            }
+            .header {
+                background-color: #000000;
+                text-align: center;
+                display: flex;
+            }
+            nav {
+                margin: 0 auto;
+                height: 100%;
+                display: flex;
+                width: 1170px;
+            
+            }
+            .snip a:before,
+            .snip a:after {
+            display: none;
+            }
+            .full-info .info-images .first-col .first-im {
+                padding-right: 0;
+            }
+            .full-info .info-images .first-col {
+                display: flex;
+                flex-direction: column;
+            }
+            .full-info .info-images .first-col p {
+                font-size: 20px;
+            }
+            .full-info .info-images .third-im img{
+                width: 625px;
+            }
+            .full-info .about-info {
+                text-align: center;
+                margin: 0 auto;
+            }
+            .full-info .about-info p{
+                font-size: 15px;
+                padding-right: 15px;
+                padding-left: 15px;
+            }
+            .full-info .about {
+                padding-bottom: 0;
+            }
+            .full-info p {
+                font-size: 27px;
+            }  
+            .full-info p:nth-child(1) {
+               font-size: 26px;
+            }
+            .full-info p:nth-child(2) {
+                padding-bottom: 10px;
+            }
+            .full-info p:nth-child(3) {
+                padding-bottom: 0px;
+                margin-bottom: 0;
+            }
+            .full-info p:nth-child(4) {
+                padding-bottom: 0px;
+                margin-bottom: 0;
+            }
+            .full-info p:nth-child(5) {
+                padding-bottom: 10px;
+            }
+            .full-info p:nth-child(6) {
+                padding-bottom: 10px;
+            }
+            .footer .footer-first p {
+                padding-bottom: 24px;
+                font-size: 15px;
+            }
+            .footer .footer-second p{
+                font-size: 12px;
+            }
+            .footer  .footer-second .social img:not(:nth-child(1)) {
+                padding-left: 15px;
+            }
+            
+            .footer .footer-third {
+                padding-top: 27px;
+                text-align: center;
+            }
+            .footer .footer-third p{
+                font-size: 18px;
+            }
+            .footer p{
+                color: black;
+            }
+            .footer {
+                max-width: 530px;
+            }
+            .footer  .footer-second .social img:not(:nth-child(1)) {
+                padding-left: 15px;
+            }
+            .full-info .info-images .first-col p {
+                padding-bottom: 10px;
+            }
+        }
+    
+    @media only screen and (min-width : 768px) and (max-width : 1023px) {
+        nav #adaptive-img {
+            display: block;
+            margin: 0  auto;
+            width: 60px;
+            padding-top: 10px;
+        }
+        .slider {
+            height: 400px;
+          }
+        nav ul li:nth-child(3) {
+            display: none;
+        }
+        nav ul  {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+        }
+        .header {
+            background-color: #000000;
+            text-align: center;
+            display: flex;
+        }
+        nav {
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            width: 1170px;
+        
+        }
+        .snip a:before,
+        .snip a:after {
+        display: none;
+        }
+        .full-info .info-images .first-col .first-im {
+            padding-right: 0;
+        }
+        .full-info .info-images .first-col {
+            display: flex;
+            flex-direction: column;
+        }
+        .full-info .info-images .first-col p {
+            font-size: 32px;
+        }
+        .full-info .info-images .third-im img{
+            width: 625px;
+        }
+        .full-info .about-info {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .full-info .about-info p{
+            font-size: 22px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .full-info .about {
+            font-size: 37px;
+            padding-bottom: 0;
+        }
+        .full-info p {
+            font-size: 27px;
+        }  
+        .full-info p:nth-child(1) {
+           font-size: 36px;
+        }
+        .full-info p:nth-child(2) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(3) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(4) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(5) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(6) {
+            padding-bottom: 10px;
+        }
+        .footer .footer-first p {
+            padding-bottom: 24px;
+            font-size: 22px;
+        }
+        .footer .footer-second p{
+            font-size: 14px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        
+        .footer .footer-third {
+            padding-top: 27px;
+            text-align: center;
+        }
+        .footer .footer-third p{
+            font-size: 22px;
+        }
+        .footer p{
+            color: black;
+        }
+        .footer {
+            max-width: 730px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        .full-info .info-images .first-col p {
+            padding-bottom: 10px;
+        }
+        .full-info  img {
+            width: 500px;
+        }
+    }
+    
+    @media only screen and (min-width : 1024px) and (max-width : 1199px) {
+        a {
+            font-size: 22px;
+        }
+        .full-info  img {
+            width: 580px;
+        }
+        nav #adaptive-img {
+            display: block;
+            margin: 0  auto;
+            width: 60px;
+            padding-top: 10px;
+        }
+        .slider {
+            height: 450px;
+          }
+        nav ul li:nth-child(3) {
+            display: none;
+        }
+        nav ul  {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0px;
+        }
+        .header {
+            background-color: #000000;
+            text-align: center;
+            display: flex;
+        }
+        nav {
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            width: 1170px;
+        
+        }
+        .snip a:before,
+        .snip a:after {
+        display: none;
+        }
+        .full-info .info-images .first-col .first-im {
+            padding-right: 0;
+        }
+        .full-info .info-images .first-col {
+            display: flex;
+            flex-direction: column;
+        }
+        .full-info .info-images .first-col p {
+            font-size: 32px;
+        }
+        .full-info .info-images .third-im img{
+            width: 625px;
+        }
+        .full-info .about-info {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .full-info .about-info p{
+            font-size: 29px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .full-info .about {
+            padding-bottom: 0;
+        }
+        .full-info p {
+            font-size: 27px;
+        }  
+        .full-info p:nth-child(1) {
+           font-size: 40px;
+        }
+        .full-info p:nth-child(2) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(3) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(4) {
+            padding-bottom: 0px;
+            margin-bottom: 0;
+        }
+        .full-info p:nth-child(5) {
+            padding-bottom: 10px;
+        }
+        .full-info p:nth-child(6) {
+            padding-bottom: 10px;
+        }
+        .footer .footer-first p {
+            padding-bottom: 24px;
+            font-size: 25px;
+        }
+        .footer .footer-second p{
+            font-size: 19px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        
+        .footer .footer-third {
+            padding-top: 27px;
+            text-align: center;
+        }
+        .footer .footer-third p{
+            font-size: 22px;
+        }
+        .footer p{
+            color: black;
+        }
+        .footer {
+            max-width: 930px;
+        }
+        .footer  .footer-second .social img:not(:nth-child(1)) {
+            padding-left: 15px;
+        }
+        .full-info .info-images .first-col p {
+            padding-bottom: 10px;
+        }
+    }
+    
+    @media only screen and (min-width : 1200px) and (max-width : 1529px) {}
+    
+    @media only screen and (min-width : 1530px) and (max-width : 1919px) {}
+    
+    @media only screen and (min-width : 1920px) {}
